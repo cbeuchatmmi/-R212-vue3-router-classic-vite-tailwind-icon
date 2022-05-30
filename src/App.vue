@@ -3,23 +3,21 @@
     <a href="#content" class="sr-only focus:not-sr-only"> Passez au contenu </a>
     <nav class="flex">
       <h1 class="m-1 flex-auto text-xl xl:flex-initial">
-        <router-link to="/">
+        <Router-link to="/">
           <IconLogo class="ml-4" />
           <span class="sr-only">Site Estatery</span>
-        </router-link>
+        </Router-link>
       </h1>
       <!-- Menu xl-->
       <div class="ml-8 hidden w-[556px] items-center justify-start gap-12 overflow-hidden xl:flex">
-        <p class="text-left text-xl font-medium text-gray-900">Programmation</p>
+        <Router-link to="Programmation"><p class="text-left text-xl font-medium text-gray-900">Programmation</p></Router-link>
 
-        <p class="text-left text-xl font-medium text-gray-900">Artistes</p>
+        <Router-link to="Artiste"><p class="text-left text-xl font-medium text-gray-900">Artistes</p></Router-link>
 
-        <p class="text-left text-xl font-medium text-gray-900">Festival</p>
+        <Router-link to="Festival"><p class="text-left text-xl font-medium text-gray-900">Festival</p></Router-link>
 
-        <div class="relative flex flex-shrink-0 flex-grow-0 items-center justify-start gap-2">
-          <p class="text-left text-xl font-medium text-gray-900">Contact</p>
-          <chevron />
-        </div>
+        <Router-link to="Contact"><p class="text-left text-xl font-medium text-gray-900">Contact</p></Router-link>
+
         <div class="flex h-6 w-[63px] items-center justify-start gap-2.5"></div>
         <div class="flex h-6 w-[113px] items-center justify-start gap-2.5"></div>
         <div class="flex h-6 w-[31px] items-center justify-start gap-2.5"></div>
@@ -65,20 +63,38 @@
     </div>
   </header>
   <body></body>
-  <footer class="bg-amber-900">
-    <div class="flex h-[117px] items-center justify-center">
-      <router-link to="/">
-        <IconInsta class="flex w-[104px] items-center justify-between pl-[25px] pr-[15px]" />
-        <span class="sr-only">Suivre sur Instagram</span>
-      </router-link>
-      <router-link to="/">
-        <IconFacebook class="flex w-[104px] items-center justify-between pl-[25px] pr-[15px]" />
-        <span class="sr-only">Suivre sur Facebook</span>
-      </router-link>
-      <router-link to="/">
-        <IconTwitter class="flex w-[104px] items-center justify-between pl-[25px] pr-[15px]" />
-        <span class="sr-only">Suivre sur Twitter</span>
-      </router-link>
+  <footer class="grid grid-cols-[repeat(auto-fit,minmax(270px,1fr))] bg-amber-900">
+    <div>
+      <Router-link to="/">
+        <IconLogo class="mt-4 ml-4 h-[141px] w-[133px]" />
+        <span class="sr-only">Site Estatery</span>
+      </Router-link>
+    </div>
+    <div>
+      <div class="flex h-[117px] items-center justify-center">
+        <Router-link to="/">
+          <IconInsta class="flex w-[104px] items-center justify-between pl-[25px] pr-[15px]" />
+          <span class="sr-only">Suivre sur Instagram</span>
+        </Router-link>
+        <Router-link to="/">
+          <IconFacebook class="flex w-[104px] items-center justify-between pl-[25px] pr-[15px]" />
+          <span class="sr-only">Suivre sur Facebook</span>
+        </Router-link>
+        <Router-link to="/">
+          <IconTwitter class="flex w-[104px] items-center justify-between pl-[25px] pr-[15px]" />
+          <span class="sr-only">Suivre sur Twitter</span>
+        </Router-link>
+      </div>
+      <div class="flex h-[62px] flex-grow flex-col items-center justify-center">
+        <Router-link to="Contact">
+          <p class="h-[37.45px] w-[172px] text-center text-lg font-bold text-white">Nous Contacter</p>
+          <span class="sr-only">Page Contact</span>
+        </Router-link>
+        <Router-link to="Mentions">
+          <p class="h-6 w-[151px] text-center text-lg font-bold text-white">Mentions Légales</p>
+          <span class="sr-only">Page Mentions Légales</span>
+        </Router-link>
+      </div>
     </div>
   </footer>
 </template>
