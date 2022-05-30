@@ -55,13 +55,12 @@
       "
       :class="{ 'translate-x-0': menuOuvert }"
     >
-      {{ menuOuvert }}
       <ul class="mt-12 flex flex-col gap-3 text-center text-3xl">
         <!-- Autre menu -->
-        <li class="mt-8"><router-link to="/">Programmation</router-link></li>
-        <li class="mt-8"><router-link to="/">Artistes</router-link></li>
-        <li class="mt-8"><router-link to="/">Festival</router-link></li>
-        <li class="mt-8"><router-link to="/">Contact</router-link></li>
+        <li class="mt-8"><Router-link to="Programmation">Programmation</Router-link></li>
+        <li class="mt-8"><Router-link to="Artiste">Artistes</Router-link></li>
+        <li class="mt-8"><Router-link to="Festival">Festival</Router-link></li>
+        <li class="mt-8"><Router-link to="Contact">Contact</Router-link></li>
       </ul>
     </div>
   </header>
