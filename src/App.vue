@@ -62,7 +62,32 @@
       </ul>
     </div>
   </header>
-  <body></body>
+  <body class="bg-yellow-50">
+    <div>
+      <img src="src/assets/image/accueil2.jpg" alt="Image d'une scène avec foule" />
+      <!--<h1 class="text-[81px] text-rose-600"> 
+        <span class="h-[638px] w-[375px] text-center">SUN</span><br /> 
+        <span class="h-[638px] w-[375px] text-center">&#x26;</span><br /> 
+        <span class="h-[638px] w-[375px] text-center">CHILL</span> 
+      </h1> -->
+    </div>
+    <div class="relative flex items-center justify-center gap-2.5 rounded-[52px] bg-amber-700 px-2.5 py-[42px]">
+      <p class="flex-grow text-center text-[38px] font-bold text-white">
+        <span class="text-[38px] font-bold text-white">Bienvenu au Sun &#x26; Chill festival</span>
+        <br />
+        <br />
+        <span class="text-[38px] font-bold text-white">Ce nouveau festival de musique chill out de l’est de la France.</span>
+      </p>
+    </div>
+    <div class="flex items-center justify-center">
+      <p class="p-5 text-left text-[23px] text-black">
+        <span class="">Nous vous accueillons le 20 et 21 août 2022 de 19h à 01h sur les rives du Lac du Malsaucy.</span><br /><br /><span
+          class=""
+          >Pour de belles soirées d’été au bord de la plage avec un concert, des activités sur la plage et des buvettes.</span
+        ><br />
+      </p>
+    </div>
+  </body>
   <footer class="grid grid-cols-[repeat(auto-fit,minmax(270px,1fr))] bg-amber-900">
     <div>
       <Router-link to="/">
