@@ -65,12 +65,22 @@
     </div>
   </header>
   <body></body>
-  <footer></footer>
+  <footer class="bg-amber-900">
+    <div>
+      <IconInsta />
+      <IconFacebook />
+      <IconTwitter />
+    </div>
+  </footer>
 </template>
 
 <script>
 import IconMenu from "./components/icons/IconMenu.vue";
 import IconLogo from "./components/icons/IconLogo.vue";
+import IconInsta from "./components/icons/IconInsta.vue";
+import IconFacebook from "./components/icons/IconFacebook.vue";
+import IconTwitter from "./components/icons/IconTwitter.vue";
+
 import AccueilView from "./views/AccueilView.vue";
 
 export default {
@@ -80,6 +90,6 @@ export default {
       menuOuvert: false,
     };
   },
-  components: { IconLogo, IconMenu, AccueilView },
+  components: { IconLogo, IconMenu, IconInsta, IconFacebook, IconTwitter, AccueilView },
 };
 </script>
