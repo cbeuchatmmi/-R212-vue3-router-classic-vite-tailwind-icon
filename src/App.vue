@@ -66,10 +66,19 @@
   </header>
   <body></body>
   <footer class="bg-amber-900">
-    <div>
-      <IconInsta />
-      <IconFacebook />
-      <IconTwitter />
+    <div class="flex h-[117px] items-center justify-center">
+      <router-link to="/">
+        <IconInsta class="flex w-[104px] items-center justify-between pl-[25px] pr-[15px]" />
+        <span class="sr-only">Suivre sur Instagram</span>
+      </router-link>
+      <router-link to="/">
+        <IconFacebook class="flex w-[104px] items-center justify-between pl-[25px] pr-[15px]" />
+        <span class="sr-only">Suivre sur Facebook</span>
+      </router-link>
+      <router-link to="/">
+        <IconTwitter class="flex w-[104px] items-center justify-between pl-[25px] pr-[15px]" />
+        <span class="sr-only">Suivre sur Twitter</span>
+      </router-link>
     </div>
   </footer>
 </template>
