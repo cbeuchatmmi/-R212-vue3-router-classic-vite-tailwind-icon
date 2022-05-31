@@ -10,10 +10,8 @@
     <h2 class="p-6 text-[29px] text-rose-600">Les Artistes</h2>
 
     <div class="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3">
-      <div class="mb-10 text-center">
-        <h2 class="p-4 text-[29px] text-rose-600">Zero 7</h2>
-        <img class="m-auto" src="../assets/image/zero7.jpg" alt="image tournoi de volley" />
-      </div>
+      <card nom="Zero 7" :image="zero7" />
+
       <div class="mb-10 text-center">
         <h2 class="p-4 text-[29px] text-rose-600">Groove Armada</h2>
         <img class="m-auto" src="../assets/image/groove.jpg" alt="image tournoi de volley" />
@@ -64,7 +62,12 @@
 <script>
 import TriD from "../components/icons/triangleD.vue";
 import TriG from "../components/icons/triangleG.vue";
+import card from "../components/card.vue";
+import zero7 from "../assets/image/zero7.jpg";
 export default {
-  components: { TriD, TriG },
+  data: () => ({
+    zero7,
+  }),
+  components: { TriD, TriG, card },
 };
 </script>
