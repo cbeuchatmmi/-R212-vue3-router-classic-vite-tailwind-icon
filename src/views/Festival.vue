@@ -2,11 +2,6 @@
   <main>
     <div>
       <img class="w-full" src="src/assets/image/festival.jpg" alt="Image d'une scène avec foule" />
-      <!--<h1 class="text-[81px] text-rose-600"> 
-        <span class="h-[638px] w-[375px] text-center">SUN</span><br /> 
-        <span class="h-[638px] w-[375px] text-center">&#x26;</span><br /> 
-        <span class="h-[638px] w-[375px] text-center">CHILL</span> 
-      </h1> -->
     </div>
     <h2 class="p-6 font-PerMarker text-[29px] text-rose-600">Le Festival</h2>
     <div class="text-left text-[23px] text-black">

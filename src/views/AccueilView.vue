@@ -1,12 +1,7 @@
 <template>
   <main class="bg-yellow-50 dark:bg-black">
-    <div class="z-0">
-      <img src="src/assets/image/accueil2.jpg" alt="Image d'une scène avec foule" />
-      <!--<h1 class="text-[81px] text-rose-600"> 
-        <span class="h-[638px] w-[375px] text-center">SUN</span><br /> 
-        <span class="h-[638px] w-[375px] text-center">&#x26;</span><br /> 
-        <span class="h-[638px] w-[375px] text-center">CHILL</span> 
-      </h1> -->
+    <div>
+      <img class="w-full" src="src/assets/image/accueil2.jpg" alt="Image d'une scène avec foule" />
     </div>
     <div class="relative top-[-50px] z-10 flex items-center justify-center gap-2.5 rounded-[52px] bg-amber-700 px-2.5 py-[42px]">
       <p class="flex-grow text-center text-[38px] font-bold text-white">
