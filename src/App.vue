@@ -44,7 +44,7 @@
         fixed
         top-0
         left-0
-        z-10
+        z-40
         h-screen
         w-screen
         translate-x-full
@@ -62,9 +62,9 @@
       </ul>
     </div>
   </header>
-<main>
-  <routerView />
-</main>
+  <main>
+    <routerView />
+  </main>
   <footer class="grid grid-cols-[repeat(auto-fit,minmax(270px,1fr))] bg-amber-900">
     <div>
       <Router-link to="/">
@@ -89,11 +89,11 @@
       </div>
       <div class="flex h-[62px] flex-grow flex-col items-center justify-center">
         <Router-link to="Contact">
-          <p class="h-[37.45px] w-[172px] text-center text-lg font-bold text-white">Nous Contacter</p>
+          <p class="h-auto w-auto text-center text-lg font-bold text-white">Nous Contacter</p>
           <span class="sr-only">Page Contact</span>
         </Router-link>
         <Router-link to="Mentions">
-          <p class="h-6 w-[151px] text-center text-lg font-bold text-white">Mentions Légales</p>
+          <p class="mb-8 h-6 w-auto text-center text-lg font-bold text-white">Mentions Légales</p>
           <span class="sr-only">Page Mentions Légales</span>
         </Router-link>
       </div>
@@ -110,7 +110,6 @@ import IconTwitter from "./components/icons/IconTwitter.vue";
 import IconFest from "./components/icons/IconFest.vue";
 import IconProg from "./components/icons/IconProg.vue";
 import IconArt from "./components/icons/IconArt.vue";
-import BgY from "./components/bg-jaune.vue";
 
 import AccueilView from "./views/AccueilView.vue";
 
@@ -121,6 +120,6 @@ export default {
       menuOuvert: false,
     };
   },
-  components: { IconLogo, IconMenu, IconInsta, IconFacebook, IconTwitter, AccueilView, IconFest, IconProg, IconArt, BgY },
+  components: { IconLogo, IconMenu, IconInsta, IconFacebook, IconTwitter, AccueilView, IconFest, IconProg, IconArt },
 };
 </script>

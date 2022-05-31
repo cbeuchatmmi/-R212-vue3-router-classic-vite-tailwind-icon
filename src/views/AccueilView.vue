@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="z-0">
     <img src="src/assets/image/accueil2.jpg" alt="Image d'une scène avec foule" />
     <!--<h1 class="text-[81px] text-rose-600"> 
         <span class="h-[638px] w-[375px] text-center">SUN</span><br /> 
@@ -7,9 +7,9 @@
         <span class="h-[638px] w-[375px] text-center">CHILL</span> 
       </h1> -->
   </div>
-  <div class="relative flex items-center justify-center gap-2.5 rounded-[52px] bg-amber-700 px-2.5 py-[42px]">
+  <div class="relative top-[-50px] z-10 flex items-center justify-center gap-2.5 rounded-[52px] bg-amber-700 px-2.5 py-[42px]">
     <p class="flex-grow text-center text-[38px] font-bold text-white">
-      <span class="">Bienvenu au Sun &#x26; Chill festival</span>
+      <span class="font">Bienvenu au Sun &#x26; Chill festival</span>
       <br />
       <br />
       <span class="">Ce nouveau festival de musique chill out de l’est de la France.</span>
@@ -24,7 +24,7 @@
 
   <div>
     <!--<BgY class="" />-->
-    <div class="grid grid-cols-[repeat(auto-fit,minmax(300px,1fr))]">
+    <div class="grid grid-cols-[repeat(auto-fit,minmax(300px,1fr))] bg-amber-300">
       <div class="mt-4 mb-4 flex flex-col items-center justify-center">
         <Router-link to="/Festival">
           <IconFest />
@@ -55,8 +55,8 @@
 import IconFest from "../components/icons/IconFest.vue";
 import IconProg from "../components/icons/IconProg.vue";
 import IconArt from "../components/icons/IconArt.vue";
-import BgY from "../components/bg-jaune.vue";
+
 export default {
-  components: { IconFest, IconProg, IconArt, BgY },
+  components: { IconFest, IconProg, IconArt },
 };
 </script>
