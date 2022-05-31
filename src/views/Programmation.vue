@@ -10,6 +10,65 @@
     <p class="left-[19px] top-[1183px] m-4">Nous vous accueillons le 20 et 21 août 2022 de 19h à 01h sur les rives du Lac du Malsaucy.</p>
     <h2 class="p-6 text-[29px] text-rose-600">Les Artistes</h2>
 
+    <table class="m-auto w-[70%] table-auto bg-yellow-200 text-xl">
+      <thead>
+        <tr>
+          <th>Horaires</th>
+          <th>Artiste</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>19h00</td>
+          <td>Zero 7</td>
+        </tr>
+        <tr>
+          <td>19h30</td>
+          <td>Groove Armada</td>
+        </tr>
+        <tr>
+          <td>20h00</td>
+          <td>Thievery Corporation</td>
+        </tr>
+        <tr>
+          <td>20h30</td>
+          <td>Röyksopp</td>
+        </tr>
+        <tr>
+          <td>21h00</td>
+          <td>Bonobo</td>
+        </tr>
+        <tr>
+          <td>21h30</td>
+          <td>Air</td>
+        </tr>
+        <tr>
+          <td>22h00</td>
+          <td>Nightmares on Wax</td>
+        </tr>
+        <tr>
+          <td>22h30</td>
+          <td>Enigma</td>
+        </tr>
+        <tr>
+          <td>23h00</td>
+          <td>Moby</td>
+        </tr>
+        <tr>
+          <td>23h30</td>
+          <td>Massive Attack</td>
+        </tr>
+        <tr>
+          <td>00h00</td>
+          <td>Boards of Canada</td>
+        </tr>
+        <tr>
+          <td>00h30</td>
+          <td>Chicane Musicien</td>
+        </tr>
+      </tbody>
+    </table>
+
     <div class="grid grid-cols-[repeat(auto-fit,minmax(300px,1fr))]">
       <div class="text-center">
         <h2 class="p-6 text-[29px] text-rose-600">Tournoi de Beach Volley</h2>
