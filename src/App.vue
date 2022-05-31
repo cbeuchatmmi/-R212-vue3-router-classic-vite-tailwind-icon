@@ -55,10 +55,12 @@
     >
       <ul class="mt-12 flex flex-col gap-3 text-center text-3xl">
         <!-- Autre menu -->
-        <li class="mt-8"><Router-link to="Programmation">Programmation</Router-link></li>
-        <li class="mt-8"><Router-link to="Artiste">Artistes</Router-link></li>
-        <li class="mt-8"><Router-link to="Festival">Festival</Router-link></li>
-        <li class="mt-8"><Router-link to="Contact">Contact</Router-link></li>
+        <li class="mt-8">
+          <Router-link to="Programmation" @click="menuOuvert = !menuOuvert">Programmation</Router-link>
+        </li>
+        <li class="mt-8"><Router-link to="Artiste" @click="menuOuvert = !menuOuvert">Artistes</Router-link></li>
+        <li class="mt-8"><Router-link to="Festival" @click="menuOuvert = !menuOuvert">Festival</Router-link></li>
+        <li class="mt-8"><Router-link to="Contact" @click="menuOuvert = !menuOuvert">Contact</Router-link></li>
       </ul>
     </div>
   </header>
