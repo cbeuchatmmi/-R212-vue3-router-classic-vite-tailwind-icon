@@ -10,12 +10,22 @@ module.exports = withAnimations({
       "colors": {
         // Ici vos couleurs exportées de Figma
       },
+
+      "fontSize": {
+        base: "1rem",
+        lg: "1.4375rem",
+        xl: "1.75rem",
+        xxl: "1.8125rem",
+        xxxl: "2.375rem",
+        xxxxl: "5.0625rem"
+      },
       "fontFamily": {
-        // Ici vos familles de polices exportées de Figma
-        // Ne pas oublier de les charger dans '/index.html' !
+        'PerMarker': ['Permanent Marker', 'cursive'],
+        'ASC': ['Amatic SC', 'cursive']
+
+
       },
     },
-
   },
   plugins: [],
 });
