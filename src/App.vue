@@ -1,6 +1,6 @@
 <template >
   <header class="bg-yellow-300">
-    <a href="#content" class="sr-only focus:not-sr-only"> Passez au contenu </a>
+    <a href="#main" class="sr-only focus:not-sr-only"> Passez au contenu </a>
     <nav class="flex">
       <h1 class="m-1 flex-auto text-xl xl:flex-initial">
         <Router-link to="/">

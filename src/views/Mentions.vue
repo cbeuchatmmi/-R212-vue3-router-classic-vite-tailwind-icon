@@ -4,7 +4,7 @@
       <TriD />
       <TriG />
 
-      <p class="p-6 text-center text-[38px] text-rose-600 dark:text-white">Mentions Légales</p>
+      <h2 class="p-6 text-center font-PerMarker text-[38px] font-bold text-rose-600 dark:text-white lg:text-[64px]">Mentions Légales</h2>
     </div>
     <div class="ml-8 mr-8 mt-8 text-left text-[23px] text-black dark:text-white">
       <p class="m-2">

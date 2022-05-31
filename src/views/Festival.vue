@@ -8,7 +8,7 @@
         <span class="h-[638px] w-[375px] text-center">CHILL</span> 
       </h1> -->
     </div>
-    <h2 class="p-6 text-[29px] text-rose-600">Le Festival</h2>
+    <h2 class="p-6 font-PerMarker text-[29px] text-rose-600">Le Festival</h2>
     <div class="text-left text-[23px] text-black">
       <p class="left-[19px] top-[1083px] m-4">
         Le Sun &amp; Chil Festival est un festival de musique chill out où la bonne ambuance est de mise. L’objectif de notre festival est
@@ -17,7 +17,7 @@
       </p>
     </div>
     <div class="bg-amber-300">
-      <h2 class="p-6 text-center text-[29px] text-rose-600">Belfort, le Lac du Malsaucy</h2>
+      <h2 class="p-6 text-center font-PerMarker text-[29px] text-rose-600">Belfort, le Lac du Malsaucy</h2>
       <div class="grid xl:grid-cols-2">
         <img src="../assets/image/carte.jpg" alt="Carte de France" class="m-auto mb-8 w-full md:w-[535px]" />
         <p class="left-[19px] top-[1083px] m-8 text-left text-[23px] text-black">

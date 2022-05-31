@@ -5,7 +5,7 @@
     viewBox="0 0 152 152"
     fill="none"
     xmlns="http://www.w3.org/2000/svg"
-    class="relative h-[151px] w-[151px] flex-shrink-0 flex-grow-0"
+    class="whit relative h-[151px] w-[151px] flex-shrink-0 flex-grow-0"
     preserveAspectRatio="none"
   >
     <circle cx="76" cy="76" r="75" fill="white" stroke="black"></circle>
@@ -15,6 +15,7 @@
       stroke-width="2"
       stroke-linecap="round"
       stroke-linejoin="round"
+      class="bg-white"
     ></path>
   </svg>
 </template>
