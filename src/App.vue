@@ -1,4 +1,4 @@
-<template>
+<template >
   <header class="bg-yellow-300">
     <a href="#content" class="sr-only focus:not-sr-only"> Passez au contenu </a>
     <nav class="flex">
@@ -9,7 +9,7 @@
         </Router-link>
       </h1>
       <!-- Menu xl-->
-      <div class="ml-8 hidden w-[556px] items-center justify-start gap-12 overflow-hidden xl:flex">
+      <div class="ml-8 hidden items-center justify-start gap-12 overflow-hidden xl:flex">
         <Router-link to="Programmation"><p class="text-left text-xl font-medium text-gray-900">Programmation</p></Router-link>
 
         <Router-link to="Artiste"><p class="text-left text-xl font-medium text-gray-900">Artistes</p></Router-link>
@@ -21,10 +21,6 @@
         <div class="flex h-6 w-[63px] items-center justify-start gap-2.5"></div>
         <div class="flex h-6 w-[113px] items-center justify-start gap-2.5"></div>
         <div class="flex h-6 w-[31px] items-center justify-start gap-2.5"></div>
-      </div>
-      <div class="ml-auto mr-4 flex items-center justify-end gap-4">
-        <login class="hidden flex-auto xl:flex" />
-        <signup class="hidden flex-auto xl:flex" />
       </div>
 
       <button
@@ -89,13 +85,13 @@
           <span class="sr-only">Suivre sur Twitter</span>
         </Router-link>
       </div>
-      <div class="flex h-[62px] flex-grow flex-col items-center justify-center">
+      <div class="flex flex-grow flex-col items-center justify-center">
         <Router-link to="Contact">
           <p class="h-auto w-auto text-center text-lg font-bold text-white">Nous Contacter</p>
           <span class="sr-only">Page Contact</span>
         </Router-link>
         <Router-link to="Mentions">
-          <p class="mb-8 h-6 w-auto text-center text-lg font-bold text-white">Mentions Légales</p>
+          <p class="h-auto w-auto text-center text-lg font-bold text-white">Mentions Légales</p>
           <span class="sr-only">Page Mentions Légales</span>
         </Router-link>
       </div>
