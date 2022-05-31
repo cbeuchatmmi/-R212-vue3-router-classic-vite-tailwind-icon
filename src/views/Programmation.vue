@@ -7,7 +7,9 @@
       <h2 class="p-6 text-center font-PerMarker text-[38px] font-bold text-rose-600 dark:text-white lg:text-[64px]">Programmation</h2>
     </div>
 
-    <p class="m-8 dark:text-white">Nous vous accueillons le 20 et 21 août 2022 de 19h à 01h sur les rives du Lac du Malsaucy.</p>
+    <p class="m-8 dark:text-white lg:text-[28px]">
+      Nous vous accueillons le 20 et 21 août 2022 de 19h à 01h sur les rives du Lac du Malsaucy.
+    </p>
     <h2 class="p-6 font-PerMarker text-[29px] text-rose-600 dark:text-white">Les Artistes</h2>
 
     <table class="m-auto w-[70%] table-auto bg-yellow-200 text-xl">
@@ -73,12 +75,12 @@
       <div class="text-center">
         <h2 class="p-6 font-PerMarker text-[29px] text-rose-600 dark:text-white">Tournoi de Beach Volley</h2>
         <img class="m-auto" src="../assets/image/volley.jpg" alt="image tournoi de volley" />
-        <p>Samedi 20 août de 20h à 00h ( Inscription ici )</p>
+        <p class="lg:text-[28px]">Samedi 20 août de 20h à 00h ( Inscription ici )</p>
       </div>
       <div class="mb-4 text-center">
         <h2 class="p-6 font-PerMarker text-[29px] text-rose-600 dark:text-white">Tournoi de Pétanque</h2>
         <img class="m-auto" src="../assets/image/petanque.jpg" alt="image tournoi de pétanque" />
-        <p>Dimanche 21 août de 20h à 00h ( Inscription ici )</p>
+        <p class="lg:text-[28px]">Dimanche 21 août de 20h à 00h ( Inscription ici )</p>
       </div>
     </div>
   </main>
