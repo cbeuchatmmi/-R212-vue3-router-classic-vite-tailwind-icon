@@ -72,23 +72,23 @@
     </table>
 
     <div class="grid grid-cols-[repeat(auto-fit,minmax(300px,1fr))] dark:text-white">
-      <div class="text-center">
-        <h2 class="p-6 font-PerMarker text-[29px] text-rose-600 dark:text-white">Tournoi de Beach Volley</h2>
-        <img class="m-auto" src="../assets/image/volley.jpg" alt="image tournoi de volley" />
-        <p class="lg:text-[28px]">Samedi 20 août de 20h à 00h ( Inscription ici )</p>
-      </div>
-      <div class="mb-4 text-center">
-        <h2 class="p-6 font-PerMarker text-[29px] text-rose-600 dark:text-white">Tournoi de Pétanque</h2>
-        <img class="m-auto" src="../assets/image/petanque.jpg" alt="image tournoi de pétanque" />
-        <p class="lg:text-[28px]">Dimanche 21 août de 20h à 00h ( Inscription ici )</p>
-      </div>
+      <tournoi nom="Tournoi de Beach Volley" :image="volley" description="Samedi 20 août de 20h à 00h ( Inscription ici )" />
+      <tournoi nom="Tournoi de Pétanque" :image="petanque" description="Dimanche 21 août de 20h à 00h ( Inscription ici )" />
     </div>
   </main>
 </template>
 <script>
 import TriD from "../components/icons/triangleD.vue";
 import TriG from "../components/icons/triangleG.vue";
+import tournoi from "../components/tournoi.vue";
+import volley from "../assets/image/volley.jpg";
+import petanque from "../assets/image/petanque.jpg";
+
 export default {
-  components: { TriD, TriG },
+  data: () => ({
+    volley,
+    petanque,
+  }),
+  components: { TriD, TriG, tournoi },
 };
 </script>
