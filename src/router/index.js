@@ -20,7 +20,7 @@ const router = createRouter({
     { path: '/programmation', name: 'Programmation', component: Programmation },
     { path: '/mentions', name: 'Mentions', component: Mentions },
     { path: '/deleteArtiste/:id', name: 'DeleteArtiste', component: DeleteArtiste },
-    { path: '/createArtiste/:id', name: 'CreateArtiste', component: CreateArtiste },
+    { path: '/createArtiste/', name: 'CreateArtiste', component: CreateArtiste },
     { path: '/updateArtiste/:id', name: 'UpdateArtiste', component: UpdateArtiste },
     { path: '/:pathMatch(.*)*', name: 'Page404', component: Page404 },
     // ici les autre routes
