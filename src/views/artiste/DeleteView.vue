@@ -39,9 +39,9 @@
           </div>
         </div>
 
-        <div class="fle flex">
+        <div class="">
           <button type="submit" class="p-8 font-bold text-red-600">Supprimer</button>
-          <button class="p-8 font-bold text-black">
+          <button class="float-right p-8 font-bold text-black">
             <RouterLink to="/artiste">Cancel</RouterLink>
           </button>
         </div>
@@ -65,7 +65,7 @@ import {
   onSnapshot,
   query,
   orderBy,
-} from "https://www.gstatic.com/firebasejs/9.7.0/firebase-firestore.js";
+} from "https://www.gstatic.com/firebasejs/9.8.2/firebase-firestore.js";
 
 // Storage
 import {
@@ -76,7 +76,7 @@ import {
   uploadString,
   deleteObject,
   listAll,
-} from "https://www.gstatic.com/firebasejs/9.7.0/firebase-storage.js";
+} from "https://www.gstatic.com/firebasejs/9.8.2/firebase-storage.js";
 
 export default {
   name: "deleteView",
@@ -88,7 +88,7 @@ export default {
         image: null, // sa photo (nom du fichier)
       },
 
-      refartiste: null, // Référence du participant à modifier
+      refArtiste: null, // Référence du participant à modifier
       imageArtiste: null, // Photo actuelle du participant
     };
   },

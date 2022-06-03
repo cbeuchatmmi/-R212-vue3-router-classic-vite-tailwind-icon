@@ -67,10 +67,10 @@ import {
   onSnapshot,
   query,
   orderBy,
-} from "https://www.gstatic.com/firebasejs/9.7.0/firebase-firestore.js";
+} from "https://www.gstatic.com/firebasejs/9.8.2/firebase-firestore.js";
 
 // Storage
-import { getStorage, ref, getDownloadURL, uploadString, deleteObject } from "https://www.gstatic.com/firebasejs/9.7.0/firebase-storage.js";
+import { getStorage, ref, getDownloadURL, uploadString, deleteObject } from "https://www.gstatic.com/firebasejs/9.8.2/firebase-storage.js";
 
 export default {
   name: "UpdateView",

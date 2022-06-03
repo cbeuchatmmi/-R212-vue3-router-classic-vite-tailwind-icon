@@ -20,7 +20,7 @@
                 <input
                   class="form-control border-2 bg-slate-100 pr-12 pt-2 pb-2"
                   placeholder="Nom de la personne"
-                  v-model="artiste.image"
+                  v-model="artiste.nom"
                   required
                 />
               </div>
@@ -40,7 +40,7 @@
           </div>
         </div>
 
-        <div class="card-footer">
+        <div class="">
           <button type="submit" class="p-8 font-bold text-red-600">Créer</button>
           <button class="float-right p-8 font-bold text-black">
             <router-link to="/artiste">Cancel</router-link>
@@ -72,7 +72,7 @@ import {
   ref, // Pour créer une référence à un fichier à uploader
   getDownloadURL, // Permet de récupérer l'adress complète d'un fichier du Storage
   uploadString, // Permet d'uploader sur le Cloud Storage une image en Base64
-} from "https://www.gstatic.com/firebasejs/9.7.0/firebase-storage.js";
+} from "https://www.gstatic.com/firebasejs/9.8.2/firebase-storage.js";
 
 export default {
   name: "CreateView",
