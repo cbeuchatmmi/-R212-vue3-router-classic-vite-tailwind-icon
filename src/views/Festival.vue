@@ -1,7 +1,7 @@
 <template>
   <main class="bg-yellow-50 dark:bg-black">
     <div>
-      <img class="w-full" src="src/assets/image/festival.jpg" alt="Image d'une scène avec foule" />
+      <img class="w-full" src="../assets/image/festival.jpg" alt="Image d'une scène avec foule" />
     </div>
     <h2 class="p-6 font-PerMarker text-[29px] text-rose-600">Le Festival</h2>
     <div class="text-left text-[23px] text-black">

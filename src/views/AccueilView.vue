@@ -1,7 +1,7 @@
 <template>
   <main class="bg-yellow-50 dark:bg-black">
     <div>
-      <img class="w-full" src="src/assets/image/accueil2.jpg" alt="Image d'une scène avec foule" />
+      <img class="w-full" src="../assets/image/accueil2.jpg" alt="Image d'une scène avec foule" />
     </div>
     <div class="relative top-[-50px] z-10 flex items-center justify-center gap-2.5 rounded-[52px] bg-amber-700 px-2.5 py-[42px]">
       <p class="flex-grow text-center text-[38px] font-bold text-white">
