@@ -32,14 +32,14 @@
       </thead>
       <tbody>
         <tr v-for="horaires in listeHoraires" :key="horaires.id">
-          <td>{{ horaires.date }}</td>
-          <td>{{ horaires.nom }}</td>
+          <td><input class="bg-yellow-300" type="text" v-model="horaires.date" /></td>
+          <td><input class="bg-yellow-300" type="text" v-model="horaires.nom" /></td>
           <td>
-            <button class="btn light" @click.prevent="updateHoraires(horaires)">
-              <i class="fa fa-edit fa-lg"></i>
+            <button class="bg-yellow-500" @click.prevent="updateHoraires(horaires)">
+              <i class="text-[16px] text-black">Modifier</i>
             </button>
-            <button class="btn light" @click.prevent="deleteHoraires(horaires)">
-              <i class="fa fa-trash fa-lg"></i>
+            <button class="bg-yellow-500" @click.prevent="deleteHoraires(horaires)">
+              <i class="text-[16px] text-black">Supprimer</i>
             </button>
           </td>
         </tr>
